@@ -1,0 +1,67 @@
+.calc {
+    background: rgb(22, 100, 100);
+    margin-top: 5vh;
+    border: 3px solid rgb(17, 3, 49);
+    width: 100%;
+}
+
+.display {
+    background: lightgrey;
+    height: 25vh;
+    padding: 5% !important;
+    font-size: 4rem;
+    text-align: right;
+    font-family: Courier, monospace;
+    overflow: auto;
+}
+
+.subdisplay {
+    border-bottom: 1px solid black;
+    height: 25%;
+    font-size: 2rem;
+    overflow: auto;
+}
+
+.keypad {
+    height: calc(200% / 3);
+}
+
+.numbers {
+    margin: 0;
+    height: 20%;
+    background: whitesmoke;
+    color: black;
+    padding: 5%;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.numbers:hover {
+    opacity: 1;
+}
+
+.calckeys {
+    color: white;
+    background: rgb(26, 113, 194);
+}
+
+.functions {
+    color: white;
+    background:darkgoldenrod
+}
+.equal {
+    color: white;
+    background-color: lightseagreen; 
+}
+
+.numkey {
+    color: skyblue;
+    background-color: rgb(26, 113, 194);; 
+}
+
+.operand {
+    color: white;
+    background-color: darkblue; 
+}

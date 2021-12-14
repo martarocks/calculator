@@ -1,0 +1,48 @@
+
+          <div class="container-fluid">
+            <div class="container-fluid" style="width: 50%; margin-left:570px">
+                    <div >
+                      <table style="width: 50%;">
+                        <tr>
+                            <td class="numbers calckeys" colspan="4" >
+                                <label id="lblExppression">{{expression}}</label>
+                            </td>
+                          </tr>
+                        <tr>
+                          <td class="numbers functions" colspan="1" (click)="reset()">AC</td>
+                          <td class="numbers functions" colspan="1" (click)="store()">ST</td>
+                          <td class="numbers functions" colspan="1" (click)="recall()">RC</td>
+                          <td class="numbers functions" colspan="1" (click)="back()">BK</td>
+                        </tr>
+                        <tr>
+                          <td class="numbers calckeys" (click)="activeKey('7')">7</td>  
+                          <td class="numbers calckeys" (click)="activeKey('8')">8</td>
+                          <td class="numbers calckeys" (click)="activeKey('9')">9</td>  
+                          <td class="numbers operand" (click)="activeKey('*')">x</td>
+                        </tr>
+                        <tr>
+                          <td class="numbers calckeys" (click)="activeKey('4')">4</td>  
+                          <td class="numbers calckeys" (click)="activeKey('5')">5</td>
+                          <td class="numbers calckeys" (click)="activeKey('6')">6</td>  
+                          <td class="numbers operand" (click)="activeKey('-')">-</td>
+                        </tr>
+                        <tr> 
+                          <td class="numbers calckeys" (click)="activeKey('1')">1</td> 
+                          <td class="numbers calckeys" (click)="activeKey('2')">2</td>
+                          <td class="numbers calckeys" (click)="activeKey('3')">3</td>  
+                          <td class="numbers operand" (click)="activeKey('+')">+</td>
+                        </tr>
+                        <tr>
+                          <td colspan="1" class="numbers numkey" (click)="activeKey('0')">0</td>
+                          <td class="numbers numkey" (click)="activeKey('.')">.</td>  
+                          <td class="numbers operand" colspan="1" (click)="activeKey('/')">/</td>
+                          <td class="numbers equal" (click)="calculate()">=</td>
+                        </tr>
+                      </table>
+                 
+                
+              </div>
+          </div>
+        </div>
+
+        
